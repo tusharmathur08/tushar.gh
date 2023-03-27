@@ -14,3 +14,7 @@ RUN cp /tushar.gh/shell/test.sh buildfiles/test.sh
 
 RUN sh buildfiles/test.sh
 
+RUN git clone https://github.com/tusharmathur08/helloworld.git
+
+RUN ls
+
