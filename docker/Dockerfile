@@ -2,7 +2,7 @@
 
 FROM ubuntu:latest
 
-RUN sudo apt update && sudo apt install git
+RUN apt update && apt install git
 
 RUN git clone https://github.com/tusharmathur08/tushar.gh.git
 
