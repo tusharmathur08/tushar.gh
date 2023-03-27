@@ -10,5 +10,5 @@ RUN pwd && ls
 
 RUN cd /tushar.gh/
 
-RUN sh shell/test.sh
+RUN ls
 
