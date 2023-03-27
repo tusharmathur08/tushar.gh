@@ -8,7 +8,5 @@ RUN git clone https://github.com/tusharmathur08/tushar.gh.git
 
 RUN pwd && ls
 
-RUN cd /tushar.gh/
-
-RUN ls
+RUN cd /tushar.gh/ && ls
 
