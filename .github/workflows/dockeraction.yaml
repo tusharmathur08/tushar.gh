@@ -27,9 +27,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: install docker
+        run: docker --version
+        
+      - name: run dockerfile
         run: |
-              sudo apt update
-              docker --version
+              pwd
+              cd $GITHUB_WORKSPACE/docker
+              docker build .
+              
 
 
       # Runs a set of commands using the runners shell
