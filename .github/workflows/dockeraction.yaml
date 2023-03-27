@@ -29,8 +29,8 @@ jobs:
       - name: install docker
         run: |
               sudo apt update
-              sudo apt install docker
-              docker pull alpine
+              sudo apt install docker.io -y
+              docker --version
 
 
       # Runs a set of commands using the runners shell
