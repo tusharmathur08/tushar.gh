@@ -33,7 +33,8 @@ jobs:
         run: |
               pwd
               cd $GITHUB_WORKSPACE/docker
-              docker build .
+              docker build .\
+              --build-arg test="value" -f Dockerfile .
               
 
 
