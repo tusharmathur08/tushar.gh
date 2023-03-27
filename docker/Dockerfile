@@ -2,4 +2,7 @@
 
 FROM ubuntu:latest
 
-RUN date
+RUN git clone https://github.com/tusharmathur08/tushar.gh.git
+
+RUN pwd && ls
+
