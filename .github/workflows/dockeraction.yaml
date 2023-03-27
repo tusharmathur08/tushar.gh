@@ -30,6 +30,7 @@ jobs:
         run: |
               sudo apt update
               sudo apt install docker
+              docker pull alpine
 
 
       # Runs a set of commands using the runners shell
