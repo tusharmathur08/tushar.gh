@@ -29,7 +29,6 @@ jobs:
       - name: install docker
         run: |
               sudo apt update
-              sudo apt install docker.io -y
               docker --version
 
 
